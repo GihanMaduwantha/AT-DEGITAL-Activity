@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import logo from '../../../assets/WhiteLogo.png'
 import line from "../../../assets/Line7.png"
 
@@ -18,11 +17,11 @@ function Footer() {
            
             
             <p className="">
-              <img src={logo} style={{width:'230px'}}/>
+              <img src={logo} alt="logo" style={{width:'230px'}}/>
               <p className="mb-4 flex text-left md:justify-center sm:justify-center" style={{ fontSize: '16px',marginTop:'5px',width:'413px',fontStyle:'Lato' }}>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
             </p>
           </div>
-          
+       
           {/* <!-- Our technologies section --> */}
           <div className="grid-2 grid gap-8 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 ">
           <div className=''>

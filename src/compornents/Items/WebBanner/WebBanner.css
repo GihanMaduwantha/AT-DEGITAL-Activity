@@ -1,0 +1,131 @@
+
+.image-container{
+
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.description-container{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 590px;
+    height: 306px;
+    
+}
+
+
+.description{
+    display: flex;
+    background:linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);
+    color: white;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.description-btn{
+    
+    
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px;
+    font-size: 15px;
+    background: rgba(242, 141, 53, 1);
+    
+
+
+}
+
+.description-content{
+    display: flex;
+    background: cover;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+.btn-container{
+    display: flex;
+    padding-left: 20px;
+
+}
+.span-btn{
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.d-c{
+   font-size: 38px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+        .description-container{
+            position: relative;
+            display: flex;
+            width: 768px;
+            max-width: 100%;
+            height: auto;
+            left: 0px;
+            padding: 0px;
+            right: 0px;
+        }
+
+        .image-container{
+            display: flex;
+            flex-direction: column;
+        }
+
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .description-container{
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 50%;
+        height: 50%;
+        display: flex;
+        
+    }
+
+    .d-c{
+        font-size: 32px;
+    }
+
+    .description-content{
+        justify-content: flex-start;
+        display: flex;
+        background: cover;
+        padding: 20px;
+        flex-direction: column;
+    
+    }
+   
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+
+ .d-c{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+
+    .d-c{
+           font-size: 20px;
+       }
+   }

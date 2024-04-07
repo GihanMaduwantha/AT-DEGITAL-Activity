@@ -1,0 +1,160 @@
+.homepage-container{
+    width: 100%;
+    height: 100%;
+}
+
+
+.right-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.text-senter{
+    justify-content: center;
+    align-items: center;
+    color: rgba(107, 60, 201, 1);
+    font-size: 27px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.text-prgh{
+    font-size: 16px;
+    font-family: inter;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+}
+
+
+
+.right-container-section1{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+
+
+.text-senter1{
+    justify-content: center;
+    align-items: center;
+    color: rgba(107, 60, 201, 1);
+    font-size: 27px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.text-prgh1{
+    font-size: 16px;
+    font-family: inter;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+
+}
+
+.btn-learn-container1{
+    display: flex;
+
+}
+
+.btn-learn1{
+    
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px;
+    font-size: 15px;
+    background: rgba(242, 141, 53, 1);
+    width: auto;
+
+
+}
+
+.span-btn-learn1{
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.sec-3-title{
+    color: #6B3CC9;
+    text-align: center;
+    font-size: 27px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-bottom: 50px;
+    
+}
+
+.section-3-main-container{
+    margin-bottom: 100px;
+}
+
+.main-faqSection{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.faqSection{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;  
+    max-width: 846px;
+    height: auto;
+    gap: 20px;
+    text-align: justify;
+}
+
+.Q-section{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    
+    
+}
+
+.A-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 500px; */
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Icon-span{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* .cont{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} */
+
+
+@media only screen and (max-width: 440px) {
+    .homepage-container{
+        width: 440px;
+        height: auto;
+    }
+}
